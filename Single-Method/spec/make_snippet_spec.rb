@@ -1,6 +1,6 @@
 require 'make_snippet'
 
-RSpec.describe 'make_snippet method check'
+RSpec.describe 'make_snippet method check' do
 #Test the following
 #Input with 6 words - checks functionality
     it "Checks functionality - return first 5 words ..." do
@@ -23,3 +23,4 @@ RSpec.describe 'make_snippet method check'
         result = make_snippet('one two three')
         expect(result).to eq 'one two three'
     end
+end
