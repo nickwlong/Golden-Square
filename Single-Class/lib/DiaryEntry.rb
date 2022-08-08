@@ -33,12 +33,3 @@ class DiaryEntry
 end
 
 basic = DiaryEntry.new("Nick's Diary", "Hello my name is Nick and this is my diary wow")
-
-p basic.reading_chunk(1,2)
-p basic.reading_chunk(1,2)
-p basic.reading_chunk(1,2)
-p basic.reading_chunk(1,2)
-p basic.reading_chunk(1,2)
-p basic.reading_chunk(1,2)
-
-p basic.reading_chunk(1,2)
