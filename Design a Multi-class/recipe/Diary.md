@@ -6,19 +6,19 @@ I want to keep a regular diary
 
 As a user
 So that I can reflect on my experiences
-I want to read my past diary entries
+I want to read my past diary entries <DONE>
 
 As a user
 So that I can reflect on my experiences in my busy day
-I want to select diary entries to read based on how much time I have and my reading speed
+I want to select diary entries to read based on how much time I have and my reading speed <DONE>
 
 As a user
 So that I can keep track of my tasks
-I want to keep a todo list along with my diary
+I want to keep a todo list along with my diary <DONE>
 
 As a user
 So that I can keep track of my contacts
-I want to see a list of all of the mobile phone numbers in all my diary entries -->
+I want to see a list of all of the mobile phone numbers in all my diary entries <DONE>-->
 
 2. Design the Class System
 Consider diagramming out the classes and their relationships. Take care to focus on the details you see as important, not everything. The diagram below uses asciiflow.com but you could also use excalidraw.com, draw.io, or miro.com
@@ -176,7 +176,7 @@ Create examples of the classes being used together in different situations and c
     nickDiary.best_entry_for_time(1,3) # => "Ate an apple"
     nickDiary.todolist # => ["Walk the dog!", "Walk the cat!"]
     nickDiary.marktaskdone("Walk the dog"), nickDiary.todolist # => ["Walk the cat!"]
-    nickDiary.contactslist # => {"Nick L" => "0713568348123","Juliet L" => "073146715790" }
+    nickDiary.contactslist # => [["Nick L", "0713568348123"], ["Juliet L", "073146715790"]]
 
 ```
 

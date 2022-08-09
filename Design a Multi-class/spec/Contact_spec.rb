@@ -16,5 +16,4 @@ RSpec.describe Contact do
         result = nickl.contact_detail
         expect(result).to eq ["Nick L", "0713568348123"]
     end
-    
 end
