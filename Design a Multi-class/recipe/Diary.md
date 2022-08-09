@@ -115,8 +115,8 @@ end
 
 class Contacts
     def initialize(name, number) #name and number are strings preferably (to prevent loss of the first zero from the number)
-        @contact = {}
-        @contact.store(name, number.to_s)
+       @name = name
+       @number = number
     end
 
     def contact_detail
@@ -161,8 +161,8 @@ Create examples of the classes being used together in different situations and c
     august3rd = DiaryEntry.new("August 3rd", "Ate one nice green leaf and a tin of baked beans")
     dogwalk = Todo.new("Walk the dog!")
     catwalk = Todo.new("Walk the cat!")
-    nickl = Contacts.new("Nick L", "0713568348123")
-    jl = Contacts.new("Juliet L", "073146715790")
+    nickl = Contact.new("Nick L", "0713568348123")
+    jl = Contact.new("Juliet L", "073146715790")
     nickDiary = Diary.new
     nickDiary.add_entry(august1st)
     nickDiary.add_entry(august2nd)
