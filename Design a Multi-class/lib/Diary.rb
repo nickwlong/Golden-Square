@@ -1,3 +1,7 @@
+require 'DiaryEntry'
+require 'Contact'
+require 'Todo'
+
 class Diary
     def initialize
         @entries = [] #empty array to add to
